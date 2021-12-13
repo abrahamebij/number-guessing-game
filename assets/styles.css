@@ -18,6 +18,7 @@ input{
   margin: auto;
   width: 90%;
   padding: 10px;
+  border-radius: 7px;
 }
 button{
   width: 50%;
