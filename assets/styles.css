@@ -1,0 +1,76 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background-image: repeating-linear-gradient(20deg, #38bd7d 20%, #8fd555 90%);
+}
+h1{
+  background-color: #3abe7d;
+  color: #fffbc7;
+  font-size: 1.6em;
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+  font-family: fangsong, Times;
+  letter-spacing: 2px;
+}
+input{
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+button{
+  width: 50%;
+  padding: 5px;
+  margin: 20px auto 10px;
+  display: block;
+}
+footer{
+  text-align: center;
+  background-color: #8cd457;
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+a:hover{
+  text-decoration: underline;
+}
+.hidden{
+  display: none;
+}
+.text{
+  width: 90%;
+  margin: 20px auto;
+  font-family: Verdana, Times, serif;
+  line-height: 1.5;
+  word-spacing: 2px;
+}
+.container{
+  width: 330px;
+  height: auto;
+  margin: 150px auto 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+.message{
+  display: block;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+#success{
+  color: green;
+}
+#warn{
+  color: red;
+}
+@media only screen and (max-width: 700px) {
+.container{
+  margin: 50px auto 10px;
+}
+}
