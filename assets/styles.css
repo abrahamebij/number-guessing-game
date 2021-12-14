@@ -1,0 +1,101 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  background-image: repeating-linear-gradient(20deg, #38bd7d 20%, #8fd555 90%);
+}
+h1{
+  background-color: #3abe7d;
+  color: #fffbc7;
+  font-size: 1.6em;
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+  font-family: fangsong, Times;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+}
+input{
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  border-radius: 15px;
+  outline-color: green;
+  border: 1px inset whitesmoke;
+}
+button{
+  width: 45%;
+  padding: 7px;
+  margin: 20px auto 10px;
+  display: block;
+  background-color:  #8cd457;
+  border: 1px dashed black;
+  box-sizing: border-box;
+}
+footer{
+  text-align: center;
+  background-color: #8cd457;
+  padding: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+em{
+  margin: 20px 25px;
+  display: block;
+}
+a{
+  text-decoration: underline;
+  color: black;
+  font-weight: 900;
+}
+a:hover{
+  text-decoration: none;
+}
+.hidden{
+  display: none;
+}
+.text{
+  width: 95%;
+  margin: 20px auto;
+  font-family: Verdana, Times, serif;
+  line-height: 1.5;
+  word-spacing: 2px;
+  position: relative;
+  padding-top: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+
+}
+.close{
+  top: -1px;
+  position: absolute;
+  right: 7px;
+  font-weight: 900;
+  cursor: pointer;
+  padding: 2px;
+  font-size: 1.1em;
+}
+.container{
+  width: 330px;
+  height: auto;
+  margin: 150px auto 10px;
+  background-color: white;
+  border: 1px solid black;
+}
+.message{
+  display: block;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+#success{
+  color: green;
+}
+#warn{
+  color: red;
+}
+@media only screen and (max-width: 700px) {
+.container{
+  margin: 50px auto 10px;
+}
+}
