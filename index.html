@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Abraham Ebijuni">
+  <meta name="keywords" content="Game, Number guessing game, Number, 0 and 1, Website, web game, guessing game, website game">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+  <!-- Theme Color for Chrome, Firefox OS, IOS and Opera -->
+  <meta name="theme-color" content="green">
+<meta name="apple-mobile-web-app-status-style" content="green">
+  <!-- Short description of the document (limit to 150 characters) -->
+  <!-- This content *may* be used as a part of search engine results. -->
+  <meta name="description" content="This is a number guessing game created by the admin of Frontend Channel">
+  <meta name="rating" content="General">
+  <!-- Control the behavior of search engine crawling and indexing -->
+  <meta name="robots" content="index,follow"><!-- All Search Engines -->
+  <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+  <!-- Add to home screen -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="app-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Number Guessing Game">
+  <!-- Facebook Card -->
+  <meta property="og:url" content="https://ademola1235.github.io/number-guessing-game/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Ultimate Number Guessing Game">
+  <meta property="og:image" content="assets/pic.png">
+  <meta property="og:image:alt" content="Play a Game for free">
+  <meta property="og:description" content="Play the 'Number Guessing game' at no cost">
+  <meta name="twitter:card" content="assets/pic.png">
+  <!-- Force IE 8/9/10 to use its latest rendering engine -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- Locks the screen into the specified orientation -->
+  <meta name="screen-orientation" content="landscape/portrait">
+  <!-- Display this document in fullscreen -->
+  <meta name="full-screen" content="yes">
+  <!-- UC browser will display images even if in "text mode" -->
+  <meta name="imagemode" content="force">
+  <!-- Document will be displayed in "application mode"(fullscreen, forbidding gesture, etc.) -->
+  <meta name="browsermode" content="application">
+  <!-- Disabled the UC browser's "night mode" for this document -->
+  <meta name="nightmode" content="enable">
+  <!-- Simplify the document to reduce data transfer -->
+  <meta name="layoutmode" content="fitscreen">
+  <!-- Disable the UC browser's feature of "scaling font up when there are many words in this document" -->
+  <meta name="wap-font-scale" content="no">
+
+
+  <!-- Provides information about an author or another person -->
+  <link rel="me" href="mailto:abreb1235@gmail.com">
+  <link rel="me" href="sms:+2348061402608">
+
+  <!---- ICONS ---->
+  <!-- Icon in the highest resolution we need it for -->
+<link rel="shortcut icon" href="assets/fc.jpg">
+  <!-- Apple Touch Icon (reuse 192px icon.png) -->
+  <link rel="apple-touch-icon" href="assets/fc.jpg">
+  <!-- Safari Pinned Tab Icon -->
+  <link rel="mask-icon" href="assets/fc.jpg" color="blue">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Guess the number</h1>
+    <p class="text"> <span class="close">X</span> <strong>RULES:</strong> In this game, you have to choose a number between 1 - 100. You will get a feedback message depending on what you chose.</p>
+    <em>You have <strong id="num"></strong> tries left</em>
+
+    <input type="number" id="input" placeholder="Enter your number">
+    <button type="button" id="button">Check number</button>
+        <button type="button" class="hidden">Wanna Replay?</button>
+    <div class="message">
+      <span id="ans"></span>
+      <span id="warn"></span>
+      <span id="success"></span>
+    </div>
+  </div>
+  <footer>Do you want to build a website? <a href="https://wa.me/2349090991401?text=Hi,%20I%20would%20like%20to%20build%20a%20website" target="_blank"> Contact me today</a></footer>
+
+  <script src="assets/index.js" charset="utf-8"></script>
+</body>
+
+</html>
