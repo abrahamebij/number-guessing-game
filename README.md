@@ -1,10 +1,10 @@
 # Number Guessing Game🔢
-This is a web game about guessing Numbers and winning.
+This is a web game/ PWA about guessing Numbers and winning.
 
 You can play it at www.ademola1235.github.io/number-guessing-game
 
 ### Follow
-🎯 [Twitter](www.twitter.com)
+🎯 [Twitter](https://twitter.com/abraham_html?t=05JHAeLjupAiwGD1pf4pTg&s=09)
 
 🎯 [Whatsapp TV](www.bit.ly/Frontend_Channel)
 
