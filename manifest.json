@@ -1,0 +1,35 @@
+{
+  "name": "Number Guessing Game",
+  "short_name": "NGG",
+  "icons": [{
+    "src": "assets/pic.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "assets/2_pic.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "assets/4_pic (1).png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "assets/1_pic.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "assets/3_pic.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "assets/4_pic.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "lang": "en-UK",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "white",
+  "theme_color": "white",
+  "orientation": "portrait"
+}
