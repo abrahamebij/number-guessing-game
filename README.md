@@ -8,6 +8,6 @@ You can play it at www.ademola1235.github.io/number-guessing-game
 
 🎯 [Whatsapp TV](www.bit.ly/Frontend_Channel)
 
-`Please kindly install the app by playing the game on Chrome`
+`Kindly install the app by playing the game on Chrome`
 
 ## Play on Champ!!! 
