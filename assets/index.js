@@ -1,5 +1,6 @@
 //jshint esversion:6
 // Made by admin Frontend Channel +2349090991401
+//www.bit.ly/Frontend_Channel
 
 var answer = document.getElementById('ans');
 var input = document.getElementById('input');
@@ -94,4 +95,21 @@ function lose() {
     button.style.display = "none";
     hidden.style.display = "block";
   }
+}
+
+
+inputField = input;
+sendBtn = document.querySelector("#button");
+
+// PREVENT FORM SUBMISSION BY PAGE REFRESH (THE DEFAULT BEHAVIOUR)
+input.onsubmit = (e)=> {
+  e.preventDefault();
+}
+
+// ADD FOCUS TO INPUT FIELD BY DEFAULT (ON PAGE LOAD)
+inputField.focus();
+
+// PREVENT INPUT FIELD FROM LOOSING FOCUS AFTER SEND BUTTON IS CLICKED
+sendBtn.onclick = ()=> {
+  inputField.focus();
 }
