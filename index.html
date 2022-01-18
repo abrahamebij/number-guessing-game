@@ -12,13 +12,14 @@
 <meta name="apple-mobile-web-app-status-style" content="green">
   <!-- Short description of the document (limit to 150 characters) -->
   <!-- This content *may* be used as a part of search engine results. -->
-  <meta name="description" content="This is a number guessing game created by the admin of Frontend Channel">
+  <meta name="description" content="This is a number guessing game created Abraham Ebijuni">
   <meta name="rating" content="General">
   <!-- Control the behavior of search engine crawling and indexing -->
   <meta name="robots" content="index,follow"><!-- All Search Engines -->
   <meta name="googlebot" content="index,follow"><!-- Google Specific -->
   <!-- Add to home screen -->
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Number Guessing Game">
   <meta name="app-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Number Guessing Game">
   <!-- Facebook Card -->
@@ -49,7 +50,7 @@
 
   <!-- Provides information about an author or another person -->
   <link rel="me" href="mailto:abreb1235@gmail.com">
-  <link rel="me" href="sms:+2348061402608">
+  <link rel="me" href="tel:+2348061402608">
 
   <!---- ICONS ---->
   <!-- Icon in the highest resolution we need it for -->
@@ -68,8 +69,10 @@
     <p class="text"> <span class="close">X</span> <strong>RULES:</strong> The computer will choose a number from 1 - 100, and you have to guess which one it is. You will get a feedback message depending on what you chose.</p>
     <em>You have <strong id="num"></strong> tries left</em>
 
+		
     <input type="number" id="input" placeholder="Enter your number">
     <button type="button" id="button">Check number</button>
+    
         <button type="button" class="hidden">Wanna Replay?</button>
     <div class="message">
       <span id="ans"></span>
