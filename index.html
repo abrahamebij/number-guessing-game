@@ -61,19 +61,7 @@
   <link rel="mask-icon" href="assets/fc.jpg" color="blue">
   <title>Number Guessing Game</title>
   <link rel="stylesheet" href="assets/styles.css">
-	<script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('sw.js').then(function(registration) {
-          // Registration was successful
-          console.log('ServiceWorker registration successful with scope: ', registration.scope);
-        }, function(err) {
-          // registration failed :(
-          console.log('ServiceWorker registration failed: ', err);
-        });
-      });
-    }
-  </script>
+  <link rel="manifest" href="manifest.json">
   
 </head>
 
